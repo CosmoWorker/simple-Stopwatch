@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 226, 218);
+}
+
+.watch-container{
+    border: 3.5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px; 
+    width: 200px;
+    height: 150px;
+    border-radius: 22px;
+}
+
+h1{
+    font-family: monospace;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(42, 41, 41);
+}
+
+button{
+    margin: 5px;
+    margin-top: 0px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: inset;
+    
+}
+
+.start{
+    background-color: rgb(41, 190, 41);
+}
+
+.stop{
+    background-color: rgb(231, 47, 47);
+}
+
+.reset{
+    background-color: rgb(53, 155, 196);
+}
+
